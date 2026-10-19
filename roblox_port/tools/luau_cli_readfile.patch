@@ -1,0 +1,52 @@
+diff --git a/CLI/src/Repl.cpp b/CLI/src/Repl.cpp
+index 0663087..5a77df8 100644
+--- a/CLI/src/Repl.cpp
++++ b/CLI/src/Repl.cpp
+@@ -168,6 +168,38 @@ static int lua_callgrind(lua_State* L)
+ }
+ #endif
+ 
++// --- test-harness additions (scratch build): binary-safe file IO for the port's tests ---
++static int lua_readfile(lua_State* L)
++{
++    const char* path = luaL_checkstring(L, 1);
++    FILE* f = fopen(path, "rb");
++    if (!f)
++    {
++        lua_pushnil(L);
++        return 1;
++    }
++    std::string data;
++    char buf[65536];
++    size_t n;
++    while ((n = fread(buf, 1, sizeof(buf), f)) > 0)
++        data.append(buf, n);
++    fclose(f);
++    lua_pushlstring(L, data.data(), data.size());
++    return 1;
++}
++static int lua_writefile(lua_State* L)
++{
++    const char* path = luaL_checkstring(L, 1);
++    size_t len = 0;
++    const char* s = luaL_checklstring(L, 2, &len);
++    FILE* f = fopen(path, "wb");
++    if (!f)
++        luaL_error(L, "cannot write %s", path);
++    fwrite(s, 1, len, f);
++    fclose(f);
++    return 0;
++}
++
+ void* createCliRequireContext(lua_State* L)
+ {
+     void* ctx = lua_newuserdatadtor(
+@@ -216,6 +248,8 @@ void setupState(lua_State* L)
+     static const luaL_Reg funcs[] = {
+         {"loadstring", lua_loadstring},
+         {"collectgarbage", lua_collectgarbage},
++        {"readfile", lua_readfile},
++        {"writefile", lua_writefile},
+ #ifdef CALLGRIND
+         {"callgrind", lua_callgrind},
+ #endif
