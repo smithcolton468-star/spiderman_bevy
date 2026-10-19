@@ -53,6 +53,13 @@ in its own space (see `update_visual` in `src/main.rs`); the visual root sits at
 Check the import's orientation and scale against `manifest.json` (`rest_joint_positions_studs`, `bounds_studs`) before
 you build on it.
 
+**Numbers.** The Rust computes in 32-bit floats and Luau numbers are 64-bit. A straight port drifts a few
+millimetres per swing and fails 3 of the 11 oracle checks by a hair (`basic_jump`, `turn_left`, `hold_auto`). In the
+`sm_traversal` port, round every arithmetic result to f32 (`vector.create(x, 0, 0).x` does it). Keep f64 only where
+the Rust does: the game clock (`time`, `entry_time`) and part of `spring` in `math.rs`. With that, the Luau path
+matches the Rust path to within 1 µm on every frame. (A cloud session found this while porting `sm_traversal`; if
+its branch exists, start from its `roblox_port/src/` instead of porting that part again.)
+
 **Time.** `simulate` runs on a fixed 60 Hz clock (`Time::<Fixed>::from_hz(60.)`), input is read every frame, and
 rendering interpolates between the last two steps exactly as `src/presentation.rs` does. The system order in
 `main()` matters (PreUpdate input, then FixedUpdate simulate, then Update build_world, animate, update_visual,
