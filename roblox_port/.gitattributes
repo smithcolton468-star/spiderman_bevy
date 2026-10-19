@@ -1,0 +1,3 @@
+# generated files: no line-ending conversion, no text diffs
+*.rbxmx -text -diff
+*.glb binary

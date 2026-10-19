@@ -1,0 +1,5403 @@
+{
+ "studs_per_metre": 3.571428571428571,
+ "triangle_limit": 20000,
+ "kits": {
+  "CityTowers": {
+   "file": "import/CityTowers.glb",
+   "models": [
+    {
+     "model": "tower_1",
+     "source": "world/tower_1.glb",
+     "parts": [
+      {
+       "name": "tower_1_p00",
+       "primitive": 0,
+       "triangles": 2300
+      },
+      {
+       "name": "tower_1_p01",
+       "primitive": 1,
+       "triangles": 11500
+      },
+      {
+       "name": "tower_1_p02",
+       "primitive": 2,
+       "triangles": 2564
+      },
+      {
+       "name": "tower_1_p03_a",
+       "primitive": 3,
+       "triangles": 10948
+      },
+      {
+       "name": "tower_1_p03_b",
+       "primitive": 3,
+       "triangles": 10948
+      },
+      {
+       "name": "tower_1_p04",
+       "primitive": 4,
+       "triangles": 17492
+      },
+      {
+       "name": "tower_1_p05_a",
+       "primitive": 5,
+       "triangles": 15782
+      },
+      {
+       "name": "tower_1_p05_b",
+       "primitive": 5,
+       "triangles": 15782
+      },
+      {
+       "name": "tower_1_p06",
+       "primitive": 6,
+       "triangles": 32
+      },
+      {
+       "name": "tower_1_p07",
+       "primitive": 7,
+       "triangles": 32
+      },
+      {
+       "name": "tower_1_p08",
+       "primitive": 8,
+       "triangles": 400
+      },
+      {
+       "name": "tower_1_p09",
+       "primitive": 9,
+       "triangles": 2
+      },
+      {
+       "name": "tower_1_p10",
+       "primitive": 10,
+       "triangles": 4412
+      },
+      {
+       "name": "tower_1_p11",
+       "primitive": 11,
+       "triangles": 5670
+      }
+     ],
+     "materials": [
+      {
+       "material": "gbl_arch_window_mts_v2_4x4_01",
+       "base_color_factor": [
+        0.12,
+        0.16,
+        0.18,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.19,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.18823529411764706,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": false
+      },
+      {
+       "material": "jn_gbl_arch_concrete_01",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "jn_gbl_proc_stain_trim_decal_random_01",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.3,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.2980392156862745,
+       "alpha_mode": "MASK",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": false
+      },
+      {
+       "material": "mo_gbl_arch_brushed_metal_trim_01_shiny",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.3,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.2980392156862745,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "mo_gbl_arch_brushed_metal_trim_01",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.3,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.2980392156862745,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "sza_gbl_arch_concrete_trim_02_dirty",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.3,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.2980392156862745,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "jn_glass_01_opaque",
+       "base_color_factor": [
+        0.065,
+        0.105,
+        0.14,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.19,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.18823529411764706,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": true
+      },
+      {
+       "material": "mo_gbl_arch_hvac_grate_01",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "sza_gbl_arch_metal_trim_01",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.3,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.2980392156862745,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": true
+      },
+      {
+       "material": "sandbox_roof",
+       "base_color_factor": [
+        0.64,
+        0.65,
+        0.66,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": false
+      },
+      {
+       "material": "pp_skyscraper_ac_unit",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "pp_skyscraper_ac_unit_02",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      }
+     ],
+     "bounds_studs": {
+      "min": [
+       -35.9583,
+       0.0,
+       -43.1011
+      ],
+      "max": [
+       35.9583,
+       215.5518,
+       43.1011
+      ]
+     }
+    },
+    {
+     "model": "tower_2",
+     "source": "world/tower_2.glb",
+     "parts": [
+      {
+       "name": "tower_2_p00",
+       "primitive": 0,
+       "triangles": 1480
+      },
+      {
+       "name": "tower_2_p01",
+       "primitive": 1,
+       "triangles": 2960
+      },
+      {
+       "name": "tower_2_p02_a",
+       "primitive": 2,
+       "triangles": 12210
+      },
+      {
+       "name": "tower_2_p02_b",
+       "primitive": 2,
+       "triangles": 12210
+      },
+      {
+       "name": "tower_2_p03",
+       "primitive": 3,
+       "triangles": 268
+      },
+      {
+       "name": "tower_2_p04",
+       "primitive": 4,
+       "triangles": 7676
+      },
+      {
+       "name": "tower_2_p05",
+       "primitive": 5,
+       "triangles": 80
+      },
+      {
+       "name": "tower_2_p06",
+       "primitive": 6,
+       "triangles": 176
+      },
+      {
+       "name": "tower_2_p07",
+       "primitive": 7,
+       "triangles": 88
+      },
+      {
+       "name": "tower_2_p08",
+       "primitive": 8,
+       "triangles": 2
+      },
+      {
+       "name": "tower_2_p09",
+       "primitive": 9,
+       "triangles": 4412
+      },
+      {
+       "name": "tower_2_p10",
+       "primitive": 10,
+       "triangles": 5670
+      }
+     ],
+     "materials": [
+      {
+       "material": "gbl_arch_window_mtg_v4_4x4_01",
+       "base_color_factor": [
+        0.065,
+        0.105,
+        0.14,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.19,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.18823529411764706,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": false
+      },
+      {
+       "material": "sza_gbl_arch_brushed_metal_tile_dark",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.3,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.2980392156862745,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "sza_gbl_arch_metal_trim_01_red",
+       "base_color_factor": [
+        0.22,
+        0.025,
+        0.022,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.3,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.2980392156862745,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "sza_gbl_arch_granite_wall_01",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "sza_gbl_arch_metal_trim_01",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.3,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.2980392156862745,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": true
+      },
+      {
+       "material": "sza_jn_glass_01_opaque_darker_02",
+       "base_color_factor": [
+        0.065,
+        0.105,
+        0.14,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.19,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.18823529411764706,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": false
+      },
+      {
+       "material": "jn_gbl_arch_metal_trim_worn_01",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.3,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.2980392156862745,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": true
+      },
+      {
+       "material": "mo_gbl_arch_hvac_grate_01",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "sandbox_roof",
+       "base_color_factor": [
+        0.64,
+        0.65,
+        0.66,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": false
+      },
+      {
+       "material": "pp_skyscraper_ac_unit",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "pp_skyscraper_ac_unit_02",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      }
+     ],
+     "bounds_studs": {
+      "min": [
+       -36.532,
+       -0.0009,
+       -43.6748
+      ],
+      "max": [
+       36.532,
+       272.6946,
+       43.6748
+      ]
+     }
+    },
+    {
+     "model": "tower_3",
+     "source": "world/tower_3.glb",
+     "parts": [
+      {
+       "name": "tower_3_p00",
+       "primitive": 0,
+       "triangles": 1000
+      },
+      {
+       "name": "tower_3_p01",
+       "primitive": 1,
+       "triangles": 10000
+      },
+      {
+       "name": "tower_3_p02",
+       "primitive": 2,
+       "triangles": 4192
+      },
+      {
+       "name": "tower_3_p03_a",
+       "primitive": 3,
+       "triangles": 19040
+      },
+      {
+       "name": "tower_3_p03_b",
+       "primitive": 3,
+       "triangles": 19040
+      },
+      {
+       "name": "tower_3_p04",
+       "primitive": 4,
+       "triangles": 12000
+      },
+      {
+       "name": "tower_3_p05",
+       "primitive": 5,
+       "triangles": 272
+      },
+      {
+       "name": "tower_3_p06",
+       "primitive": 6,
+       "triangles": 80
+      },
+      {
+       "name": "tower_3_p07",
+       "primitive": 7,
+       "triangles": 96
+      },
+      {
+       "name": "tower_3_p08",
+       "primitive": 8,
+       "triangles": 2
+      },
+      {
+       "name": "tower_3_p09",
+       "primitive": 9,
+       "triangles": 4412
+      },
+      {
+       "name": "tower_3_p10",
+       "primitive": 10,
+       "triangles": 5670
+      }
+     ],
+     "materials": [
+      {
+       "material": "gbl_arch_window_mtg_v4_4x4_02",
+       "base_color_factor": [
+        0.08,
+        0.17,
+        0.2,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.19,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.18823529411764706,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": false
+      },
+      {
+       "material": "jn_gbl_arch_metal_trim_01_black",
+       "base_color_factor": [
+        0.045,
+        0.05,
+        0.052,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.3,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.2980392156862745,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "jn_gbl_arch_metal_trim_worn_01",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.3,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.2980392156862745,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": true
+      },
+      {
+       "material": "sza_gbl_arch_metal_trim_01",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.3,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.2980392156862745,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": true
+      },
+      {
+       "material": "sza_gbl_arch_metal_trim_01_red",
+       "base_color_factor": [
+        0.22,
+        0.025,
+        0.022,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.3,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.2980392156862745,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "sza_gbl_arch_granite_wall_01",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "sza_jn_glass_01_opaque_darker_02",
+       "base_color_factor": [
+        0.065,
+        0.105,
+        0.14,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.19,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.18823529411764706,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": false
+      },
+      {
+       "material": "mo_gbl_arch_hvac_grate_01",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "sandbox_roof",
+       "base_color_factor": [
+        0.64,
+        0.65,
+        0.66,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": false
+      },
+      {
+       "material": "pp_skyscraper_ac_unit",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "pp_skyscraper_ac_unit_02",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      }
+     ],
+     "bounds_studs": {
+      "min": [
+       -43.6748,
+       -0.0009,
+       -43.6748
+      ],
+      "max": [
+       43.6748,
+       329.8375,
+       43.6748
+      ]
+     }
+    },
+    {
+     "model": "tower_4",
+     "source": "world/tower_4.glb",
+     "parts": [
+      {
+       "name": "tower_4_p00",
+       "primitive": 0,
+       "triangles": 2896
+      },
+      {
+       "name": "tower_4_p01",
+       "primitive": 1,
+       "triangles": 14480
+      },
+      {
+       "name": "tower_4_p02",
+       "primitive": 2,
+       "triangles": 3184
+      },
+      {
+       "name": "tower_4_p03_a",
+       "primitive": 3,
+       "triangles": 13464
+      },
+      {
+       "name": "tower_4_p03_b",
+       "primitive": 3,
+       "triangles": 13464
+      },
+      {
+       "name": "tower_4_p04_a",
+       "primitive": 4,
+       "triangles": 10992
+      },
+      {
+       "name": "tower_4_p04_b",
+       "primitive": 4,
+       "triangles": 10992
+      },
+      {
+       "name": "tower_4_p05_a",
+       "primitive": 5,
+       "triangles": 19620
+      },
+      {
+       "name": "tower_4_p05_b",
+       "primitive": 5,
+       "triangles": 19620
+      },
+      {
+       "name": "tower_4_p06",
+       "primitive": 6,
+       "triangles": 32
+      },
+      {
+       "name": "tower_4_p07",
+       "primitive": 7,
+       "triangles": 32
+      },
+      {
+       "name": "tower_4_p08",
+       "primitive": 8,
+       "triangles": 400
+      },
+      {
+       "name": "tower_4_p09",
+       "primitive": 9,
+       "triangles": 2
+      },
+      {
+       "name": "tower_4_p10",
+       "primitive": 10,
+       "triangles": 4412
+      },
+      {
+       "name": "tower_4_p11",
+       "primitive": 11,
+       "triangles": 5670
+      }
+     ],
+     "materials": [
+      {
+       "material": "gbl_arch_window_mts_v2_4x4_01",
+       "base_color_factor": [
+        0.12,
+        0.16,
+        0.18,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.19,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.18823529411764706,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": false
+      },
+      {
+       "material": "jn_gbl_arch_concrete_01",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "jn_gbl_proc_stain_trim_decal_random_01",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.3,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.2980392156862745,
+       "alpha_mode": "MASK",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": false
+      },
+      {
+       "material": "mo_gbl_arch_brushed_metal_trim_01_shiny",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.3,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.2980392156862745,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "mo_gbl_arch_brushed_metal_trim_01",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.3,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.2980392156862745,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "sza_gbl_arch_concrete_trim_02_dirty",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.3,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.2980392156862745,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "jn_glass_01_opaque",
+       "base_color_factor": [
+        0.065,
+        0.105,
+        0.14,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.19,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.18823529411764706,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": true
+      },
+      {
+       "material": "mo_gbl_arch_hvac_grate_01",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "sza_gbl_arch_metal_trim_01",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.3,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.2980392156862745,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": true
+      },
+      {
+       "material": "sandbox_roof",
+       "base_color_factor": [
+        0.64,
+        0.65,
+        0.66,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": false
+      },
+      {
+       "material": "pp_skyscraper_ac_unit",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "pp_skyscraper_ac_unit_02",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      }
+     ],
+     "bounds_studs": {
+      "min": [
+       -43.1011,
+       0.0,
+       -43.1011
+      ],
+      "max": [
+       43.1011,
+       244.1232,
+       43.1011
+      ]
+     }
+    },
+    {
+     "model": "tower_5",
+     "source": "world/tower_5.glb",
+     "parts": [
+      {
+       "name": "tower_5_p00",
+       "primitive": 0,
+       "triangles": 1712
+      },
+      {
+       "name": "tower_5_p01",
+       "primitive": 1,
+       "triangles": 3424
+      },
+      {
+       "name": "tower_5_p02_a",
+       "primitive": 2,
+       "triangles": 14124
+      },
+      {
+       "name": "tower_5_p02_b",
+       "primitive": 2,
+       "triangles": 14124
+      },
+      {
+       "name": "tower_5_p03",
+       "primitive": 3,
+       "triangles": 272
+      },
+      {
+       "name": "tower_5_p04",
+       "primitive": 4,
+       "triangles": 8080
+      },
+      {
+       "name": "tower_5_p05",
+       "primitive": 5,
+       "triangles": 80
+      },
+      {
+       "name": "tower_5_p06",
+       "primitive": 6,
+       "triangles": 192
+      },
+      {
+       "name": "tower_5_p07",
+       "primitive": 7,
+       "triangles": 96
+      },
+      {
+       "name": "tower_5_p08",
+       "primitive": 8,
+       "triangles": 2
+      },
+      {
+       "name": "tower_5_p09",
+       "primitive": 9,
+       "triangles": 4412
+      },
+      {
+       "name": "tower_5_p10",
+       "primitive": 10,
+       "triangles": 5670
+      }
+     ],
+     "materials": [
+      {
+       "material": "gbl_arch_window_mtg_v4_4x4_01",
+       "base_color_factor": [
+        0.065,
+        0.105,
+        0.14,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.19,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.18823529411764706,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": false
+      },
+      {
+       "material": "sza_gbl_arch_brushed_metal_tile_dark",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.3,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.2980392156862745,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "sza_gbl_arch_metal_trim_01_red",
+       "base_color_factor": [
+        0.22,
+        0.025,
+        0.022,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.3,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.2980392156862745,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "sza_gbl_arch_granite_wall_01",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "sza_gbl_arch_metal_trim_01",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.3,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.2980392156862745,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": true
+      },
+      {
+       "material": "sza_jn_glass_01_opaque_darker_02",
+       "base_color_factor": [
+        0.065,
+        0.105,
+        0.14,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.19,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.18823529411764706,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": false
+      },
+      {
+       "material": "jn_gbl_arch_metal_trim_worn_01",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.3,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.2980392156862745,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": true
+      },
+      {
+       "material": "mo_gbl_arch_hvac_grate_01",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "sandbox_roof",
+       "base_color_factor": [
+        0.64,
+        0.65,
+        0.66,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": false
+      },
+      {
+       "material": "pp_skyscraper_ac_unit",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "pp_skyscraper_ac_unit_02",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      }
+     ],
+     "bounds_studs": {
+      "min": [
+       -43.6748,
+       -0.0009,
+       -43.6748
+      ],
+      "max": [
+       43.6748,
+       286.9803,
+       43.6748
+      ]
+     }
+    },
+    {
+     "model": "tower_6",
+     "source": "world/tower_6.glb",
+     "parts": [
+      {
+       "name": "tower_6_p00",
+       "primitive": 0,
+       "triangles": 1048
+      },
+      {
+       "name": "tower_6_p01",
+       "primitive": 1,
+       "triangles": 10480
+      },
+      {
+       "name": "tower_6_p02",
+       "primitive": 2,
+       "triangles": 4384
+      },
+      {
+       "name": "tower_6_p03_a",
+       "primitive": 3,
+       "triangles": 19760
+      },
+      {
+       "name": "tower_6_p03_b",
+       "primitive": 3,
+       "triangles": 19760
+      },
+      {
+       "name": "tower_6_p04",
+       "primitive": 4,
+       "triangles": 12576
+      },
+      {
+       "name": "tower_6_p05",
+       "primitive": 5,
+       "triangles": 272
+      },
+      {
+       "name": "tower_6_p06",
+       "primitive": 6,
+       "triangles": 80
+      },
+      {
+       "name": "tower_6_p07",
+       "primitive": 7,
+       "triangles": 96
+      },
+      {
+       "name": "tower_6_p08",
+       "primitive": 8,
+       "triangles": 2
+      },
+      {
+       "name": "tower_6_p09",
+       "primitive": 9,
+       "triangles": 4412
+      },
+      {
+       "name": "tower_6_p10",
+       "primitive": 10,
+       "triangles": 5670
+      }
+     ],
+     "materials": [
+      {
+       "material": "gbl_arch_window_mtg_v4_4x4_02",
+       "base_color_factor": [
+        0.08,
+        0.17,
+        0.2,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.19,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.18823529411764706,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": false
+      },
+      {
+       "material": "jn_gbl_arch_metal_trim_01_black",
+       "base_color_factor": [
+        0.045,
+        0.05,
+        0.052,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.3,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.2980392156862745,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "jn_gbl_arch_metal_trim_worn_01",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.3,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.2980392156862745,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": true
+      },
+      {
+       "material": "sza_gbl_arch_metal_trim_01",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.3,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.2980392156862745,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": true
+      },
+      {
+       "material": "sza_gbl_arch_metal_trim_01_red",
+       "base_color_factor": [
+        0.22,
+        0.025,
+        0.022,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.3,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.2980392156862745,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "sza_gbl_arch_granite_wall_01",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "sza_jn_glass_01_opaque_darker_02",
+       "base_color_factor": [
+        0.065,
+        0.105,
+        0.14,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.19,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.18823529411764706,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": false
+      },
+      {
+       "material": "mo_gbl_arch_hvac_grate_01",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "sandbox_roof",
+       "base_color_factor": [
+        0.64,
+        0.65,
+        0.66,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": false
+      },
+      {
+       "material": "pp_skyscraper_ac_unit",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "pp_skyscraper_ac_unit_02",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      }
+     ],
+     "bounds_studs": {
+      "min": [
+       -43.6748,
+       -0.0009,
+       -43.6748
+      ],
+      "max": [
+       43.6748,
+       344.1232,
+       43.6748
+      ]
+     }
+    },
+    {
+     "model": "tower_7",
+     "source": "world/tower_7.glb",
+     "parts": [
+      {
+       "name": "tower_7_p00",
+       "primitive": 0,
+       "triangles": 2896
+      },
+      {
+       "name": "tower_7_p01",
+       "primitive": 1,
+       "triangles": 14480
+      },
+      {
+       "name": "tower_7_p02",
+       "primitive": 2,
+       "triangles": 3184
+      },
+      {
+       "name": "tower_7_p03_a",
+       "primitive": 3,
+       "triangles": 13464
+      },
+      {
+       "name": "tower_7_p03_b",
+       "primitive": 3,
+       "triangles": 13464
+      },
+      {
+       "name": "tower_7_p04_a",
+       "primitive": 4,
+       "triangles": 10992
+      },
+      {
+       "name": "tower_7_p04_b",
+       "primitive": 4,
+       "triangles": 10992
+      },
+      {
+       "name": "tower_7_p05_a",
+       "primitive": 5,
+       "triangles": 19620
+      },
+      {
+       "name": "tower_7_p05_b",
+       "primitive": 5,
+       "triangles": 19620
+      },
+      {
+       "name": "tower_7_p06",
+       "primitive": 6,
+       "triangles": 32
+      },
+      {
+       "name": "tower_7_p07",
+       "primitive": 7,
+       "triangles": 32
+      },
+      {
+       "name": "tower_7_p08",
+       "primitive": 8,
+       "triangles": 400
+      },
+      {
+       "name": "tower_7_p09",
+       "primitive": 9,
+       "triangles": 2
+      },
+      {
+       "name": "tower_7_p10",
+       "primitive": 10,
+       "triangles": 4412
+      },
+      {
+       "name": "tower_7_p11",
+       "primitive": 11,
+       "triangles": 5670
+      }
+     ],
+     "materials": [
+      {
+       "material": "gbl_arch_window_mts_v2_4x4_01",
+       "base_color_factor": [
+        0.12,
+        0.16,
+        0.18,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.19,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.18823529411764706,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": false
+      },
+      {
+       "material": "jn_gbl_arch_concrete_01",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "jn_gbl_proc_stain_trim_decal_random_01",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.3,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.2980392156862745,
+       "alpha_mode": "MASK",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": false
+      },
+      {
+       "material": "mo_gbl_arch_brushed_metal_trim_01_shiny",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.3,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.2980392156862745,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "mo_gbl_arch_brushed_metal_trim_01",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.3,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.2980392156862745,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "sza_gbl_arch_concrete_trim_02_dirty",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.3,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.2980392156862745,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "jn_glass_01_opaque",
+       "base_color_factor": [
+        0.065,
+        0.105,
+        0.14,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.19,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.18823529411764706,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": true
+      },
+      {
+       "material": "mo_gbl_arch_hvac_grate_01",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "sza_gbl_arch_metal_trim_01",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.3,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.2980392156862745,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": true
+      },
+      {
+       "material": "sandbox_roof",
+       "base_color_factor": [
+        0.64,
+        0.65,
+        0.66,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": false
+      },
+      {
+       "material": "pp_skyscraper_ac_unit",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "pp_skyscraper_ac_unit_02",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      }
+     ],
+     "bounds_studs": {
+      "min": [
+       -43.1011,
+       0.0,
+       -43.1011
+      ],
+      "max": [
+       43.1011,
+       244.1232,
+       43.1011
+      ]
+     }
+    }
+   ]
+  },
+  "CityProps": {
+   "file": "import/CityProps.glb",
+   "models": [
+    {
+     "model": "prop_ac_unit",
+     "source": "world/prop_ac_unit.glb",
+     "parts": [
+      {
+       "name": "prop_ac_unit_p00",
+       "primitive": 0,
+       "triangles": 2206
+      },
+      {
+       "name": "prop_ac_unit_p01",
+       "primitive": 1,
+       "triangles": 2835
+      }
+     ],
+     "materials": [
+      {
+       "material": "pp_skyscraper_ac_unit",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "pp_skyscraper_ac_unit_02",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      }
+     ],
+     "bounds_studs": {
+      "min": [
+       -9.845,
+       0.0,
+       -8.1203
+      ],
+      "max": [
+       9.845,
+       15.5518,
+       8.1203
+      ]
+     }
+    },
+    {
+     "model": "prop_billboard_stand",
+     "source": "world/prop_billboard_stand.glb",
+     "parts": [
+      {
+       "name": "prop_billboard_stand_p00",
+       "primitive": 0,
+       "triangles": 748
+      }
+     ],
+     "materials": [
+      {
+       "material": "sza_gbl_arch_painted_rusted_metal_trim_01",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.3,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.2980392156862745,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": false
+      }
+     ],
+     "bounds_studs": {
+      "min": [
+       -7.2558,
+       0.0,
+       -5.0956
+      ],
+      "max": [
+       7.2558,
+       16.0392,
+       5.0956
+      ]
+     }
+    },
+    {
+     "model": "prop_helipad",
+     "source": "world/prop_helipad.glb",
+     "parts": [
+      {
+       "name": "prop_helipad_p00",
+       "primitive": 0,
+       "triangles": 320
+      },
+      {
+       "name": "prop_helipad_p01",
+       "primitive": 1,
+       "triangles": 144
+      },
+      {
+       "name": "prop_helipad_p02",
+       "primitive": 2,
+       "triangles": 14
+      },
+      {
+       "name": "prop_helipad_p03",
+       "primitive": 3,
+       "triangles": 166
+      }
+     ],
+     "materials": [
+      {
+       "material": "jn_gbl_arch_metal_trim_worn_dirty",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.3,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.2980392156862745,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "os_hvackit_01_elements_01",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "os_hvackit_01_hvac",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "os_hvackit_01_metal",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.3,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.2980392156862745,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      }
+     ],
+     "bounds_studs": {
+      "min": [
+       -14.386,
+       0.0,
+       -14.3934
+      ],
+      "max": [
+       14.386,
+       11.4354,
+       14.3934
+      ]
+     }
+    },
+    {
+     "model": "prop_hvac_industrial",
+     "source": "world/prop_hvac_industrial.glb",
+     "parts": [
+      {
+       "name": "prop_hvac_industrial_p00",
+       "primitive": 0,
+       "triangles": 12
+      },
+      {
+       "name": "prop_hvac_industrial_p01",
+       "primitive": 1,
+       "triangles": 1072
+      },
+      {
+       "name": "prop_hvac_industrial_p02",
+       "primitive": 2,
+       "triangles": 1590
+      },
+      {
+       "name": "prop_hvac_industrial_p03",
+       "primitive": 3,
+       "triangles": 192
+      },
+      {
+       "name": "prop_hvac_industrial_p04",
+       "primitive": 4,
+       "triangles": 104
+      },
+      {
+       "name": "prop_hvac_industrial_p05",
+       "primitive": 5,
+       "triangles": 250
+      },
+      {
+       "name": "prop_hvac_industrial_p06",
+       "primitive": 6,
+       "triangles": 544
+      }
+     ],
+     "materials": [
+      {
+       "material": "os_hvackit_01_decal",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "MASK",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "os_hvackit_01_hvac",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "os_hvackit_01_metal",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.3,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.2980392156862745,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "os_hvackit_02_bake_01",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "os_hvackit_02_bake_02",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "os_hvackit_02_bake_03",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "rv_gbl_arch_painted_rusted_metal_trim_white",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.3,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.2980392156862745,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": false
+      }
+     ],
+     "bounds_studs": {
+      "min": [
+       -8.9329,
+       0.0,
+       -16.1403
+      ],
+      "max": [
+       8.9329,
+       21.1923,
+       16.1403
+      ]
+     }
+    },
+    {
+     "model": "prop_intel_tower",
+     "source": "world/prop_intel_tower.glb",
+     "parts": [
+      {
+       "name": "prop_intel_tower_p00",
+       "primitive": 0,
+       "triangles": 6072
+      },
+      {
+       "name": "prop_intel_tower_p01",
+       "primitive": 1,
+       "triangles": 4044
+      },
+      {
+       "name": "prop_intel_tower_p02",
+       "primitive": 2,
+       "triangles": 18
+      },
+      {
+       "name": "prop_intel_tower_p03",
+       "primitive": 3,
+       "triangles": 48
+      },
+      {
+       "name": "prop_intel_tower_p04",
+       "primitive": 4,
+       "triangles": 286
+      }
+     ],
+     "materials": [
+      {
+       "material": "cp_rough_plastic_black_glossy_trim_01",
+       "base_color_factor": [
+        0.045,
+        0.05,
+        0.052,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.3,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.2980392156862745,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "jn_gbl_arch_metal_trim_worn_01",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.3,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.2980392156862745,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": true
+      },
+      {
+       "material": "cp_base_steel_trim_01",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.3,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.2980392156862745,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": true
+      },
+      {
+       "material": "intel_tower_off_glow",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": false
+      },
+      {
+       "material": "rv_gbl_arch_tower_concrete_floor_trim_01",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.3,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.2980392156862745,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      }
+     ],
+     "bounds_studs": {
+      "min": [
+       -1.7613,
+       0.0,
+       -1.7487
+      ],
+      "max": [
+       1.7613,
+       25.8902,
+       1.7487
+      ]
+     }
+    },
+    {
+     "model": "prop_lamp_post",
+     "source": "world/prop_lamp_post.glb",
+     "parts": [
+      {
+       "name": "prop_lamp_post_p00",
+       "primitive": 0,
+       "triangles": 200
+      },
+      {
+       "name": "prop_lamp_post_p01",
+       "primitive": 1,
+       "triangles": 6176
+      },
+      {
+       "name": "prop_lamp_post_p02",
+       "primitive": 2,
+       "triangles": 288
+      }
+     ],
+     "materials": [
+      {
+       "material": "concrete_base_round",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "gbl_amb_lamp_post_central_park_01",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "cp_glass_04_shinnier",
+       "base_color_factor": [
+        0.065,
+        0.105,
+        0.14,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.19,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.18823529411764706,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": false
+      }
+     ],
+     "bounds_studs": {
+      "min": [
+       -1.263,
+       0.0,
+       -1.2521
+      ],
+      "max": [
+       1.263,
+       13.2446,
+       1.2521
+      ]
+     }
+    },
+    {
+     "model": "prop_newsstand",
+     "source": "world/prop_newsstand.glb",
+     "parts": [
+      {
+       "name": "prop_newsstand_p00",
+       "primitive": 0,
+       "triangles": 20
+      },
+      {
+       "name": "prop_newsstand_p01",
+       "primitive": 1,
+       "triangles": 2265
+      },
+      {
+       "name": "prop_newsstand_p02",
+       "primitive": 2,
+       "triangles": 102
+      },
+      {
+       "name": "prop_newsstand_p03",
+       "primitive": 3,
+       "triangles": 918
+      },
+      {
+       "name": "prop_newsstand_p04",
+       "primitive": 4,
+       "triangles": 64
+      },
+      {
+       "name": "prop_newsstand_p05",
+       "primitive": 5,
+       "triangles": 178
+      },
+      {
+       "name": "prop_newsstand_p06",
+       "primitive": 6,
+       "triangles": 180
+      }
+     ],
+     "materials": [
+      {
+       "material": "cp_glass_04_shinnier",
+       "base_color_factor": [
+        0.065,
+        0.105,
+        0.14,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.19,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.18823529411764706,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": false
+      },
+      {
+       "material": "gh_cp_base_steal_trim_shiny_01",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.3,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.2980392156862745,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": true
+      },
+      {
+       "material": "jn_gbl_arch_shiny_metal_trim_01_worn_02",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.3,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.2980392156862745,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "np_gbl_prop_newsstand_01",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "np_gbl_prop_scaffolding_lightbulb_01",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": false
+      },
+      {
+       "material": "cp_glass_04",
+       "base_color_factor": [
+        0.065,
+        0.105,
+        0.14,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.19,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.18823529411764706,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": false
+      },
+      {
+       "material": "gh_glass_02_dirty_opaque",
+       "base_color_factor": [
+        0.065,
+        0.105,
+        0.14,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.19,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.18823529411764706,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": false
+      }
+     ],
+     "bounds_studs": {
+      "min": [
+       -8.2075,
+       0.0,
+       -6.3084
+      ],
+      "max": [
+       8.2075,
+       11.9803,
+       6.3084
+      ]
+     }
+    },
+    {
+     "model": "prop_perch_antenna",
+     "source": "world/prop_perch_antenna.glb",
+     "parts": [
+      {
+       "name": "prop_perch_antenna_p00",
+       "primitive": 0,
+       "triangles": 228
+      },
+      {
+       "name": "prop_perch_antenna_p01",
+       "primitive": 1,
+       "triangles": 2392
+      },
+      {
+       "name": "prop_perch_antenna_p02",
+       "primitive": 2,
+       "triangles": 1206
+      },
+      {
+       "name": "prop_perch_antenna_p03",
+       "primitive": 3,
+       "triangles": 30
+      },
+      {
+       "name": "prop_perch_antenna_p04",
+       "primitive": 4,
+       "triangles": 32
+      }
+     ],
+     "materials": [
+      {
+       "material": "cp_rough_plastic_black_glossy_trim_01",
+       "base_color_factor": [
+        0.045,
+        0.05,
+        0.052,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.3,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.2980392156862745,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "cp_base_steel_trim_01",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.3,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.2980392156862745,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": true
+      },
+      {
+       "material": "cp_plastic_trim_01_black",
+       "base_color_factor": [
+        0.045,
+        0.05,
+        0.052,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.3,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.2980392156862745,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "gh_gbl_arch_parallax_glow_01_red",
+       "base_color_factor": [
+        0.22,
+        0.025,
+        0.022,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": true
+      },
+      {
+       "material": "intel_tower_off_glow",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": false
+      }
+     ],
+     "bounds_studs": {
+      "min": [
+       -0.4726,
+       0.0,
+       -4.7477
+      ],
+      "max": [
+       0.4726,
+       29.8104,
+       4.7477
+      ]
+     }
+    },
+    {
+     "model": "prop_rooftop_access",
+     "source": "world/prop_rooftop_access.glb",
+     "parts": [
+      {
+       "name": "prop_rooftop_access_p00",
+       "primitive": 0,
+       "triangles": 226
+      },
+      {
+       "name": "prop_rooftop_access_p01",
+       "primitive": 1,
+       "triangles": 16
+      },
+      {
+       "name": "prop_rooftop_access_p02",
+       "primitive": 2,
+       "triangles": 176
+      },
+      {
+       "name": "prop_rooftop_access_p03",
+       "primitive": 3,
+       "triangles": 32
+      }
+     ],
+     "materials": [
+      {
+       "material": "cp_base_steel_trim_01",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.3,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.2980392156862745,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": true
+      },
+      {
+       "material": "gh_glass_03_dirty",
+       "base_color_factor": [
+        0.065,
+        0.105,
+        0.14,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.19,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.18823529411764706,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": false
+      },
+      {
+       "material": "jn_gbl_arch_concrete_trim_01_white",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.3,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.2980392156862745,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "jn_gbl_proc_stain_trim_decal_random_01",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.3,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.2980392156862745,
+       "alpha_mode": "MASK",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": false
+      }
+     ],
+     "bounds_studs": {
+      "min": [
+       -4.7198,
+       0.0,
+       -4.6953
+      ],
+      "max": [
+       4.7198,
+       13.9744,
+       4.6953
+      ]
+     }
+    },
+    {
+     "model": "prop_scaffold_tower",
+     "source": "world/prop_scaffold_tower.glb",
+     "parts": [
+      {
+       "name": "prop_scaffold_tower_p00",
+       "primitive": 0,
+       "triangles": 2993
+      },
+      {
+       "name": "prop_scaffold_tower_p01",
+       "primitive": 1,
+       "triangles": 24
+      }
+     ],
+     "materials": [
+      {
+       "material": "cp_base_steel_trim_01",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.3,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.2980392156862745,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": true
+      },
+      {
+       "material": "jn_np_gbl_prop_scaffolding_debris_netting_grey",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      }
+     ],
+     "bounds_studs": {
+      "min": [
+       -7.2431,
+       0.0,
+       -7.2798
+      ],
+      "max": [
+       7.2431,
+       14.2857,
+       7.2798
+      ]
+     }
+    },
+    {
+     "model": "prop_water_tank",
+     "source": "world/prop_water_tank.glb",
+     "parts": [
+      {
+       "name": "prop_water_tank_p00",
+       "primitive": 0,
+       "triangles": 1748
+      },
+      {
+       "name": "prop_water_tank_p01",
+       "primitive": 1,
+       "triangles": 332
+      }
+     ],
+     "materials": [
+      {
+       "material": "gbl_arch_metal_trim_01_hearst_02",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.3,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.2980392156862745,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "gbl_arch_metal_trim_esu_signage_01",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.3,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.2980392156862745,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      }
+     ],
+     "bounds_studs": {
+      "min": [
+       -3.8173,
+       0.0,
+       -3.5958
+      ],
+      "max": [
+       3.8173,
+       21.4739,
+       3.5958
+      ]
+     }
+    },
+    {
+     "model": "sedan_blue",
+     "source": "world/sedan_blue.glb",
+     "parts": [
+      {
+       "name": "sedan_blue_p00",
+       "primitive": 0,
+       "triangles": 44
+      },
+      {
+       "name": "sedan_blue_p01",
+       "primitive": 1,
+       "triangles": 743
+      },
+      {
+       "name": "sedan_blue_p02",
+       "primitive": 2,
+       "triangles": 166
+      },
+      {
+       "name": "sedan_blue_p03",
+       "primitive": 3,
+       "triangles": 2259
+      },
+      {
+       "name": "sedan_blue_p04",
+       "primitive": 4,
+       "triangles": 3311
+      },
+      {
+       "name": "sedan_blue_p05",
+       "primitive": 5,
+       "triangles": 319
+      },
+      {
+       "name": "sedan_blue_p06",
+       "primitive": 6,
+       "triangles": 4642
+      },
+      {
+       "name": "sedan_blue_p07",
+       "primitive": 7,
+       "triangles": 768
+      },
+      {
+       "name": "sedan_blue_p08",
+       "primitive": 8,
+       "triangles": 571
+      },
+      {
+       "name": "sedan_blue_p09",
+       "primitive": 9,
+       "triangles": 4472
+      }
+     ],
+     "materials": [
+      {
+       "material": "jn_gbl_prop_license_plate_random_01",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": false
+      },
+      {
+       "material": "veh_sedan_01_chassis",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "veh_sedan_01_engine_2",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "veh_sedan_01_ext_1",
+       "base_color_factor": [
+        0.11,
+        0.24,
+        0.42,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.3,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.2980392156862745,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "veh_sedan_01_ext_2",
+       "base_color_factor": [
+        0.11,
+        0.24,
+        0.42,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.3,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.2980392156862745,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "veh_sedan_01_glass",
+       "base_color_factor": [
+        0.065,
+        0.105,
+        0.14,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.19,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.18823529411764706,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": true
+      },
+      {
+       "material": "veh_sedan_01_int_1",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "veh_sedan_01_int_2",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "veh_sedan_01_lights",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "veh_sedan_01_wheel",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      }
+     ],
+     "bounds_studs": {
+      "min": [
+       -3.8034,
+       0.0,
+       -9.2246
+      ],
+      "max": [
+       3.8034,
+       5.7242,
+       9.2246
+      ]
+     }
+    },
+    {
+     "model": "sedan_red",
+     "source": "world/sedan_red.glb",
+     "parts": [
+      {
+       "name": "sedan_red_p00",
+       "primitive": 0,
+       "triangles": 44
+      },
+      {
+       "name": "sedan_red_p01",
+       "primitive": 1,
+       "triangles": 743
+      },
+      {
+       "name": "sedan_red_p02",
+       "primitive": 2,
+       "triangles": 166
+      },
+      {
+       "name": "sedan_red_p03",
+       "primitive": 3,
+       "triangles": 2259
+      },
+      {
+       "name": "sedan_red_p04",
+       "primitive": 4,
+       "triangles": 3311
+      },
+      {
+       "name": "sedan_red_p05",
+       "primitive": 5,
+       "triangles": 319
+      },
+      {
+       "name": "sedan_red_p06",
+       "primitive": 6,
+       "triangles": 4642
+      },
+      {
+       "name": "sedan_red_p07",
+       "primitive": 7,
+       "triangles": 768
+      },
+      {
+       "name": "sedan_red_p08",
+       "primitive": 8,
+       "triangles": 571
+      },
+      {
+       "name": "sedan_red_p09",
+       "primitive": 9,
+       "triangles": 4472
+      }
+     ],
+     "materials": [
+      {
+       "material": "jn_gbl_prop_license_plate_random_01",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": false
+      },
+      {
+       "material": "veh_sedan_01_chassis",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "veh_sedan_01_engine_2",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "veh_sedan_01_ext_1",
+       "base_color_factor": [
+        0.38,
+        0.045,
+        0.025,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.3,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.2980392156862745,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "veh_sedan_01_ext_2",
+       "base_color_factor": [
+        0.38,
+        0.045,
+        0.025,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.3,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.2980392156862745,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "veh_sedan_01_glass",
+       "base_color_factor": [
+        0.065,
+        0.105,
+        0.14,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.19,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.18823529411764706,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": true
+      },
+      {
+       "material": "veh_sedan_01_int_1",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "veh_sedan_01_int_2",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "veh_sedan_01_lights",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "veh_sedan_01_wheel",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      }
+     ],
+     "bounds_studs": {
+      "min": [
+       -3.8034,
+       0.0,
+       -9.2246
+      ],
+      "max": [
+       3.8034,
+       5.7242,
+       9.2246
+      ]
+     }
+    },
+    {
+     "model": "sedan_silver",
+     "source": "world/sedan_silver.glb",
+     "parts": [
+      {
+       "name": "sedan_silver_p00",
+       "primitive": 0,
+       "triangles": 44
+      },
+      {
+       "name": "sedan_silver_p01",
+       "primitive": 1,
+       "triangles": 743
+      },
+      {
+       "name": "sedan_silver_p02",
+       "primitive": 2,
+       "triangles": 166
+      },
+      {
+       "name": "sedan_silver_p03",
+       "primitive": 3,
+       "triangles": 2259
+      },
+      {
+       "name": "sedan_silver_p04",
+       "primitive": 4,
+       "triangles": 3311
+      },
+      {
+       "name": "sedan_silver_p05",
+       "primitive": 5,
+       "triangles": 319
+      },
+      {
+       "name": "sedan_silver_p06",
+       "primitive": 6,
+       "triangles": 4642
+      },
+      {
+       "name": "sedan_silver_p07",
+       "primitive": 7,
+       "triangles": 768
+      },
+      {
+       "name": "sedan_silver_p08",
+       "primitive": 8,
+       "triangles": 571
+      },
+      {
+       "name": "sedan_silver_p09",
+       "primitive": 9,
+       "triangles": 4472
+      }
+     ],
+     "materials": [
+      {
+       "material": "jn_gbl_prop_license_plate_random_01",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": false
+      },
+      {
+       "material": "veh_sedan_01_chassis",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "veh_sedan_01_engine_2",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "veh_sedan_01_ext_1",
+       "base_color_factor": [
+        0.6,
+        0.62,
+        0.64,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.3,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.2980392156862745,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "veh_sedan_01_ext_2",
+       "base_color_factor": [
+        0.6,
+        0.62,
+        0.64,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.3,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.2980392156862745,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "veh_sedan_01_glass",
+       "base_color_factor": [
+        0.065,
+        0.105,
+        0.14,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.19,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.18823529411764706,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": true
+      },
+      {
+       "material": "veh_sedan_01_int_1",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "veh_sedan_01_int_2",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "veh_sedan_01_lights",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "veh_sedan_01_wheel",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      }
+     ],
+     "bounds_studs": {
+      "min": [
+       -3.8034,
+       0.0,
+       -9.2246
+      ],
+      "max": [
+       3.8034,
+       5.7242,
+       9.2246
+      ]
+     }
+    },
+    {
+     "model": "suv",
+     "source": "world/suv.glb",
+     "parts": [
+      {
+       "name": "suv_p00",
+       "primitive": 0,
+       "triangles": 3523
+      },
+      {
+       "name": "suv_p01",
+       "primitive": 1,
+       "triangles": 1248
+      },
+      {
+       "name": "suv_p02",
+       "primitive": 2,
+       "triangles": 570
+      },
+      {
+       "name": "suv_p03",
+       "primitive": 3,
+       "triangles": 4146
+      },
+      {
+       "name": "suv_p04",
+       "primitive": 4,
+       "triangles": 3996
+      },
+      {
+       "name": "suv_p05",
+       "primitive": 5,
+       "triangles": 3609
+      },
+      {
+       "name": "suv_p06",
+       "primitive": 6,
+       "triangles": 2077
+      },
+      {
+       "name": "suv_p07",
+       "primitive": 7,
+       "triangles": 408
+      },
+      {
+       "name": "suv_p08",
+       "primitive": 8,
+       "triangles": 738
+      },
+      {
+       "name": "suv_p09",
+       "primitive": 9,
+       "triangles": 3375
+      },
+      {
+       "name": "suv_p10",
+       "primitive": 10,
+       "triangles": 1125
+      },
+      {
+       "name": "suv_p11",
+       "primitive": 11,
+       "triangles": 10
+      }
+     ],
+     "materials": [
+      {
+       "material": "veh_suv_01_chassis",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "veh_sedan_01_engine_1",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "veh_suv_01_engine_2",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "veh_suv_01_ext_1",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.3,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.2980392156862745,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "veh_suv_01_ext_2",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.3,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.2980392156862745,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "veh_suv_01_int_1",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "veh_suv_01_int_2",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "veh_suv_01_glass",
+       "base_color_factor": [
+        0.065,
+        0.105,
+        0.14,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.19,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.18823529411764706,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": false
+      },
+      {
+       "material": "veh_suv_01_lights",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "veh_suv_01_wheel",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "veh_suv_01_wheel_damage",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "jn_gbl_prop_license_plate_random_01",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": false
+      }
+     ],
+     "bounds_studs": {
+      "min": [
+       -4.5925,
+       0.0,
+       -9.6274
+      ],
+      "max": [
+       4.5925,
+       7.5204,
+       9.6274
+      ]
+     }
+    },
+    {
+     "model": "taxi",
+     "source": "world/taxi.glb",
+     "parts": [
+      {
+       "name": "taxi_p00",
+       "primitive": 0,
+       "triangles": 8092
+      },
+      {
+       "name": "taxi_p01",
+       "primitive": 1,
+       "triangles": 84
+      },
+      {
+       "name": "taxi_p02",
+       "primitive": 2,
+       "triangles": 450
+      },
+      {
+       "name": "taxi_p03",
+       "primitive": 3,
+       "triangles": 382
+      },
+      {
+       "name": "taxi_p04",
+       "primitive": 4,
+       "triangles": 4135
+      },
+      {
+       "name": "taxi_p05",
+       "primitive": 5,
+       "triangles": 4940
+      },
+      {
+       "name": "taxi_p06",
+       "primitive": 6,
+       "triangles": 6357
+      },
+      {
+       "name": "taxi_p07",
+       "primitive": 7,
+       "triangles": 32
+      },
+      {
+       "name": "taxi_p08",
+       "primitive": 8,
+       "triangles": 309
+      }
+     ],
+     "materials": [
+      {
+       "material": "os_hybridtaxi_ext_01",
+       "base_color_factor": [
+        0.95,
+        0.68,
+        0.045,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.3,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.2980392156862745,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "jn_gbl_prop_license_plate_random_01",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": false
+      },
+      {
+       "material": "os_hybridtaxi_glass_01",
+       "base_color_factor": [
+        0.065,
+        0.105,
+        0.14,
+        1.0
+       ],
+       "metallic": 0.52,
+       "roughness": 0.19,
+       "metallic_8bit": 0.5215686274509804,
+       "roughness_8bit": 0.18823529411764706,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": true
+      },
+      {
+       "material": "os_hybridtaxi_lights_01",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "os_hybridtaxi_uc_01",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "os_hybridtaxi_wheel_01",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "os_hybridtaxi_int_01",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      },
+      {
+       "material": "veh_jn_taxi_random_advert",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": false,
+       "has_normal_texture": false
+      },
+      {
+       "material": "os_hybridtaxi_eng_01",
+       "base_color_factor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+       ],
+       "metallic": 0.0,
+       "roughness": 0.8,
+       "metallic_8bit": 0.0,
+       "roughness_8bit": 0.8,
+       "alpha_mode": "OPAQUE",
+       "double_sided": false,
+       "has_color_texture": true,
+       "has_normal_texture": true
+      }
+     ],
+     "bounds_studs": {
+      "min": [
+       -3.7048,
+       0.0,
+       -8.514
+      ],
+      "max": [
+       3.7048,
+       6.4279,
+       8.514
+      ]
+     }
+    }
+   ]
+  }
+ },
+ "character": {
+  "file": "import/SpiderMan.glb",
+  "armature_root": "SpiderMan",
+  "joints": 212,
+  "mesh_parts": [
+   {
+    "name": "SuitPart_00_a",
+    "source_mesh": "SuitPart_00",
+    "material": "hero_spiderman_body_modcolor",
+    "triangles": 18457
+   },
+   {
+    "name": "SuitPart_00_b",
+    "source_mesh": "SuitPart_00",
+    "material": "hero_spiderman_body_modcolor",
+    "triangles": 18457
+   },
+   {
+    "name": "SuitPart_01_a",
+    "source_mesh": "SuitPart_01",
+    "material": "hero_spiderman_glove_modcolor",
+    "triangles": 12205
+   },
+   {
+    "name": "SuitPart_01_b",
+    "source_mesh": "SuitPart_01",
+    "material": "hero_spiderman_glove_modcolor",
+    "triangles": 12205
+   },
+   {
+    "name": "SuitPart_02",
+    "source_mesh": "SuitPart_02",
+    "material": "hero_spiderman_leg",
+    "triangles": 260
+   },
+   {
+    "name": "SuitPart_03",
+    "source_mesh": "SuitPart_03",
+    "material": "hero_spiderman_newgauntlet",
+    "triangles": 1336
+   },
+   {
+    "name": "SuitPart_04",
+    "source_mesh": "SuitPart_04",
+    "material": "hero_spiderman_shoe",
+    "triangles": 3928
+   },
+   {
+    "name": "SuitPart_05",
+    "source_mesh": "SuitPart_05",
+    "material": "hero_spiderman_spider_sign",
+    "triangles": 4544
+   },
+   {
+    "name": "SuitPart_06",
+    "source_mesh": "SuitPart_06",
+    "material": "hero_spiderman_webshooter",
+    "triangles": 8119
+   },
+   {
+    "name": "SuitPart_07",
+    "source_mesh": "SuitPart_07",
+    "material": "hero_spiderman_webshooter_glass",
+    "triangles": 559
+   },
+   {
+    "name": "SuitPart_08_a",
+    "source_mesh": "SuitPart_08",
+    "material": "reviewasset_spiderman_leg_modcolor",
+    "triangles": 13218
+   },
+   {
+    "name": "SuitPart_08_b",
+    "source_mesh": "SuitPart_08",
+    "material": "reviewasset_spiderman_leg_modcolor",
+    "triangles": 13218
+   },
+   {
+    "name": "SuitPart_09",
+    "source_mesh": "SuitPart_09",
+    "material": "reviewasset_spiderman_shoe_modcolor",
+    "triangles": 3636
+   },
+   {
+    "name": "SuitPart_10",
+    "source_mesh": "SuitPart_10",
+    "material": "spiderman_gauntlet_mat",
+    "triangles": 8058
+   },
+   {
+    "name": "SuitPart_11",
+    "source_mesh": "SuitPart_11",
+    "material": "spiderman_whitelegs_mat",
+    "triangles": 398
+   },
+   {
+    "name": "SuitPart_12",
+    "source_mesh": "SuitPart_12",
+    "material": "spiderman_whiteshoes_mat",
+    "triangles": 1836
+   },
+   {
+    "name": "SuitPart_13",
+    "source_mesh": "SuitPart_13",
+    "material": "hero_spiderman_eye_base",
+    "triangles": 324
+   },
+   {
+    "name": "SuitPart_14",
+    "source_mesh": "SuitPart_14",
+    "material": "hero_spiderman_eye_lense",
+    "triangles": 324
+   },
+   {
+    "name": "SuitPart_15",
+    "source_mesh": "SuitPart_15",
+    "material": "hero_spiderman_eyeshutters",
+    "triangles": 7744
+   },
+   {
+    "name": "SuitPart_16",
+    "source_mesh": "SuitPart_16",
+    "material": "hero_spiderman_head_eyeframe",
+    "triangles": 1128
+   },
+   {
+    "name": "SuitPart_17",
+    "source_mesh": "SuitPart_17",
+    "material": "hero_spiderman_head_newweb",
+    "triangles": 3510
+   }
+  ],
+  "triangles": 133464,
+  "materials": [
+   {
+    "material": "hero_spiderman_body_modcolor",
+    "base_color_factor": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "metallic": 0.0,
+    "roughness": 0.4699999988079071,
+    "metallic_8bit": 0.0,
+    "roughness_8bit": 0.47058823529411764,
+    "alpha_mode": "OPAQUE",
+    "double_sided": true,
+    "has_color_texture": true,
+    "has_normal_texture": true
+   },
+   {
+    "material": "hero_spiderman_glove_modcolor",
+    "base_color_factor": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "metallic": 0.0,
+    "roughness": 0.4699999988079071,
+    "metallic_8bit": 0.0,
+    "roughness_8bit": 0.47058823529411764,
+    "alpha_mode": "OPAQUE",
+    "double_sided": true,
+    "has_color_texture": true,
+    "has_normal_texture": true
+   },
+   {
+    "material": "hero_spiderman_leg",
+    "base_color_factor": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "metallic": 0.0,
+    "roughness": 0.4699999988079071,
+    "metallic_8bit": 0.0,
+    "roughness_8bit": 0.47058823529411764,
+    "alpha_mode": "OPAQUE",
+    "double_sided": true,
+    "has_color_texture": true,
+    "has_normal_texture": true
+   },
+   {
+    "material": "hero_spiderman_newgauntlet",
+    "base_color_factor": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "metallic": 0.0,
+    "roughness": 0.4699999988079071,
+    "metallic_8bit": 0.0,
+    "roughness_8bit": 0.47058823529411764,
+    "alpha_mode": "OPAQUE",
+    "double_sided": true,
+    "has_color_texture": true,
+    "has_normal_texture": true
+   },
+   {
+    "material": "hero_spiderman_shoe",
+    "base_color_factor": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "metallic": 0.0,
+    "roughness": 0.4699999988079071,
+    "metallic_8bit": 0.0,
+    "roughness_8bit": 0.47058823529411764,
+    "alpha_mode": "OPAQUE",
+    "double_sided": true,
+    "has_color_texture": true,
+    "has_normal_texture": true
+   },
+   {
+    "material": "hero_spiderman_spider_sign",
+    "base_color_factor": [
+     0.8799999952316284,
+     0.8999999761581421,
+     0.9300000071525574,
+     1.0
+    ],
+    "metallic": 0.0,
+    "roughness": 0.4699999988079071,
+    "metallic_8bit": 0.0,
+    "roughness_8bit": 0.47058823529411764,
+    "alpha_mode": "OPAQUE",
+    "double_sided": true,
+    "has_color_texture": false,
+    "has_normal_texture": true
+   },
+   {
+    "material": "hero_spiderman_webshooter",
+    "base_color_factor": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "metallic": 0.0,
+    "roughness": 0.4699999988079071,
+    "metallic_8bit": 0.0,
+    "roughness_8bit": 0.47058823529411764,
+    "alpha_mode": "OPAQUE",
+    "double_sided": true,
+    "has_color_texture": true,
+    "has_normal_texture": true
+   },
+   {
+    "material": "hero_spiderman_webshooter_glass",
+    "base_color_factor": [
+     0.012000000104308128,
+     0.01600000075995922,
+     0.023000000044703484,
+     1.0
+    ],
+    "metallic": 0.0,
+    "roughness": 0.4699999988079071,
+    "metallic_8bit": 0.0,
+    "roughness_8bit": 0.47058823529411764,
+    "alpha_mode": "OPAQUE",
+    "double_sided": true,
+    "has_color_texture": false,
+    "has_normal_texture": true
+   },
+   {
+    "material": "reviewasset_spiderman_leg_modcolor",
+    "base_color_factor": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "metallic": 0.0,
+    "roughness": 0.4699999988079071,
+    "metallic_8bit": 0.0,
+    "roughness_8bit": 0.47058823529411764,
+    "alpha_mode": "OPAQUE",
+    "double_sided": true,
+    "has_color_texture": true,
+    "has_normal_texture": true
+   },
+   {
+    "material": "reviewasset_spiderman_shoe_modcolor",
+    "base_color_factor": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "metallic": 0.0,
+    "roughness": 0.4699999988079071,
+    "metallic_8bit": 0.0,
+    "roughness_8bit": 0.47058823529411764,
+    "alpha_mode": "OPAQUE",
+    "double_sided": true,
+    "has_color_texture": true,
+    "has_normal_texture": true
+   },
+   {
+    "material": "spiderman_gauntlet_mat",
+    "base_color_factor": [
+     0.800000011920929,
+     0.800000011920929,
+     0.800000011920929,
+     1.0
+    ],
+    "metallic": 0.0,
+    "roughness": 0.4699999988079071,
+    "metallic_8bit": 0.0,
+    "roughness_8bit": 0.47058823529411764,
+    "alpha_mode": "OPAQUE",
+    "double_sided": true,
+    "has_color_texture": false,
+    "has_normal_texture": true
+   },
+   {
+    "material": "spiderman_whitelegs_mat",
+    "base_color_factor": [
+     0.8799999952316284,
+     0.8999999761581421,
+     0.9300000071525574,
+     1.0
+    ],
+    "metallic": 0.0,
+    "roughness": 0.4699999988079071,
+    "metallic_8bit": 0.0,
+    "roughness_8bit": 0.47058823529411764,
+    "alpha_mode": "OPAQUE",
+    "double_sided": true,
+    "has_color_texture": false,
+    "has_normal_texture": true
+   },
+   {
+    "material": "spiderman_whiteshoes_mat",
+    "base_color_factor": [
+     0.8799999952316284,
+     0.8999999761581421,
+     0.9300000071525574,
+     1.0
+    ],
+    "metallic": 0.0,
+    "roughness": 0.4699999988079071,
+    "metallic_8bit": 0.0,
+    "roughness_8bit": 0.47058823529411764,
+    "alpha_mode": "OPAQUE",
+    "double_sided": true,
+    "has_color_texture": false,
+    "has_normal_texture": true
+   },
+   {
+    "material": "hero_spiderman_eye_base",
+    "base_color_factor": [
+     0.8799999952316284,
+     0.8999999761581421,
+     0.9300000071525574,
+     1.0
+    ],
+    "metallic": 0.0,
+    "roughness": 0.4699999988079071,
+    "metallic_8bit": 0.0,
+    "roughness_8bit": 0.47058823529411764,
+    "alpha_mode": "OPAQUE",
+    "double_sided": true,
+    "has_color_texture": false,
+    "has_normal_texture": true
+   },
+   {
+    "material": "hero_spiderman_eye_lense",
+    "base_color_factor": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "metallic": 0.0,
+    "roughness": 0.4699999988079071,
+    "metallic_8bit": 0.0,
+    "roughness_8bit": 0.47058823529411764,
+    "alpha_mode": "OPAQUE",
+    "double_sided": true,
+    "has_color_texture": true,
+    "has_normal_texture": true
+   },
+   {
+    "material": "hero_spiderman_eyeshutters",
+    "base_color_factor": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "metallic": 0.0,
+    "roughness": 0.4699999988079071,
+    "metallic_8bit": 0.0,
+    "roughness_8bit": 0.47058823529411764,
+    "alpha_mode": "OPAQUE",
+    "double_sided": true,
+    "has_color_texture": true,
+    "has_normal_texture": false
+   },
+   {
+    "material": "hero_spiderman_head_eyeframe",
+    "base_color_factor": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "metallic": 0.0,
+    "roughness": 0.4699999988079071,
+    "metallic_8bit": 0.0,
+    "roughness_8bit": 0.47058823529411764,
+    "alpha_mode": "OPAQUE",
+    "double_sided": true,
+    "has_color_texture": true,
+    "has_normal_texture": true
+   },
+   {
+    "material": "hero_spiderman_head_newweb",
+    "base_color_factor": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "metallic": 0.0,
+    "roughness": 0.4699999988079071,
+    "metallic_8bit": 0.0,
+    "roughness_8bit": 0.47058823529411764,
+    "alpha_mode": "OPAQUE",
+    "double_sided": true,
+    "has_color_texture": true,
+    "has_normal_texture": true
+   }
+  ],
+  "bind_pose_max_error": 1.4955416009695965e-06,
+  "rest_joint_positions_studs": {
+   "head": [
+    0.0,
+    5.8801,
+    -0.3125
+   ],
+   "neck": [
+    0.0,
+    5.4121,
+    -0.3125
+   ],
+   "spine": [
+    0.0,
+    3.7002,
+    -0.1853
+   ],
+   "pelvis": [
+    0.0,
+    3.6467,
+    -0.1853
+   ],
+   "LF_wrist": [
+    2.1045,
+    4.0025,
+    0.2392
+   ],
+   "RT_wrist": [
+    -2.1045,
+    4.0025,
+    0.2394
+   ],
+   "LF_foot": [
+    0.4462,
+    0.3222,
+    -0.359
+   ],
+   "RT_foot": [
+    -0.4462,
+    0.3222,
+    -0.359
+   ]
+  },
+  "bounds_studs": {
+   "min": [
+    -2.5774,
+    -0.0061,
+    -0.7019
+   ],
+   "max": [
+    2.5774,
+    6.4575,
+    0.79
+   ]
+  }
+ },
+ "clips": [
+  {
+   "name": "stand_chargejump_fwd_spiderman",
+   "constant": 33,
+   "keyed": 603,
+   "missing": 0,
+   "duration": 2.633333444595337,
+   "keys": 159
+  },
+  {
+   "name": "stand_chargejump_up_spiderman",
+   "constant": 39,
+   "keyed": 597,
+   "missing": 0,
+   "duration": 1.7000000476837158,
+   "keys": 103
+  },
+  {
+   "name": "stand_idle_spiderman",
+   "constant": 498,
+   "keyed": 138,
+   "missing": 0,
+   "duration": 11.933333396911621,
+   "keys": 717
+  },
+  {
+   "name": "stand_jog_fwd_spiderman",
+   "constant": 439,
+   "keyed": 197,
+   "missing": 0,
+   "duration": 2.1666667461395264,
+   "keys": 131
+  },
+  {
+   "name": "stand_jump_land_spiderman",
+   "constant": 45,
+   "keyed": 591,
+   "missing": 0,
+   "duration": 1.899999976158142,
+   "keys": 115
+  },
+  {
+   "name": "stand_jump_spiderman",
+   "constant": 35,
+   "keyed": 601,
+   "missing": 0,
+   "duration": 0.9333333373069763,
+   "keys": 57
+  },
+  {
+   "name": "stand_sprint_fwd_spiderman",
+   "constant": 459,
+   "keyed": 177,
+   "missing": 0,
+   "duration": 0.5666666626930237,
+   "keys": 35
+  },
+  {
+   "name": "stand_sprint_high_jump_fwd_spiderman",
+   "constant": 38,
+   "keyed": 598,
+   "missing": 0,
+   "duration": 1.7999999523162842,
+   "keys": 109
+  },
+  {
+   "name": "air_tofastfall_spiderman",
+   "constant": 41,
+   "keyed": 595,
+   "missing": 0,
+   "duration": 1.6666666269302368,
+   "keys": 101
+  },
+  {
+   "name": "fall_cycle_spiderman",
+   "constant": 492,
+   "keyed": 144,
+   "missing": 0,
+   "duration": 3.566666603088379,
+   "keys": 215
+  },
+  {
+   "name": "fall_toland_spiderman",
+   "constant": 38,
+   "keyed": 598,
+   "missing": 0,
+   "duration": 0.4333333373069763,
+   "keys": 27
+  },
+  {
+   "name": "fastfall_spiderman",
+   "constant": 458,
+   "keyed": 178,
+   "missing": 0,
+   "duration": 3.2333333492279053,
+   "keys": 195
+  },
+  {
+   "name": "skydive_spiderman",
+   "constant": 485,
+   "keyed": 151,
+   "missing": 0,
+   "duration": 1.6666666269302368,
+   "keys": 101
+  },
+  {
+   "name": "wall_run_jump_spin_rt_spiderman",
+   "constant": 34,
+   "keyed": 602,
+   "missing": 0,
+   "duration": 1.1333333253860474,
+   "keys": 69
+  },
+  {
+   "name": "web_swing_2rh_000_bend_l_spiderman",
+   "constant": 636,
+   "keyed": 0,
+   "missing": 0,
+   "duration": 0.03333333507180214,
+   "keys": 2
+  },
+  {
+   "name": "web_swing_2rh_000_bend_r_spiderman",
+   "constant": 636,
+   "keyed": 0,
+   "missing": 0,
+   "duration": 0.03333333507180214,
+   "keys": 2
+  },
+  {
+   "name": "web_swing_2rh_000_twist_0_spiderman",
+   "constant": 636,
+   "keyed": 0,
+   "missing": 0,
+   "duration": 0.03333333507180214,
+   "keys": 2
+  },
+  {
+   "name": "web_swing_2rh_045_twist_0_spiderman",
+   "constant": 636,
+   "keyed": 0,
+   "missing": 0,
+   "duration": 0.03333333507180214,
+   "keys": 2
+  },
+  {
+   "name": "web_swing_fwd_rh_spiderman",
+   "constant": 37,
+   "keyed": 599,
+   "missing": 0,
+   "duration": 4.733333110809326,
+   "keys": 285
+  },
+  {
+   "name": "web_swing_intro_fromair_fwd_spiderman",
+   "constant": 40,
+   "keyed": 596,
+   "missing": 0,
+   "duration": 0.6333333253860474,
+   "keys": 39
+  },
+  {
+   "name": "web_swing_intro_fromairaggro_fwd_rh_spiderman",
+   "constant": 41,
+   "keyed": 595,
+   "missing": 0,
+   "duration": 0.7666666507720947,
+   "keys": 47
+  },
+  {
+   "name": "web_swing_intro_fromairaggro_fwd_spiderman",
+   "constant": 39,
+   "keyed": 597,
+   "missing": 0,
+   "duration": 0.7666666507720947,
+   "keys": 47
+  },
+  {
+   "name": "web_swing_intro_fromfastfall_fwd_rh_spiderman",
+   "constant": 41,
+   "keyed": 595,
+   "missing": 0,
+   "duration": 0.7666666507720947,
+   "keys": 47
+  },
+  {
+   "name": "web_swing_jump_high1_spiderman",
+   "constant": 40,
+   "keyed": 596,
+   "missing": 0,
+   "duration": 2.5,
+   "keys": 151
+  },
+  {
+   "name": "web_swing_jump_high2_spiderman",
+   "constant": 37,
+   "keyed": 599,
+   "missing": 0,
+   "duration": 2.6666667461395264,
+   "keys": 161
+  },
+  {
+   "name": "web_swing_jump_high_spiderman",
+   "constant": 40,
+   "keyed": 596,
+   "missing": 0,
+   "duration": 2.566666603088379,
+   "keys": 155
+  },
+  {
+   "name": "web_swing_jump_mid2_spiderman",
+   "constant": 34,
+   "keyed": 602,
+   "missing": 0,
+   "duration": 3.066666603088379,
+   "keys": 185
+  },
+  {
+   "name": "web_swing_jump_mid3_spiderman",
+   "constant": 36,
+   "keyed": 600,
+   "missing": 0,
+   "duration": 3.066666603088379,
+   "keys": 185
+  },
+  {
+   "name": "web_swing_jump_mid4_spiderman",
+   "constant": 36,
+   "keyed": 600,
+   "missing": 0,
+   "duration": 3.066666603088379,
+   "keys": 185
+  },
+  {
+   "name": "web_swing_jump_mid5_spiderman",
+   "constant": 38,
+   "keyed": 598,
+   "missing": 0,
+   "duration": 3.066666603088379,
+   "keys": 185
+  },
+  {
+   "name": "web_swing_jump_mid_spiderman",
+   "constant": 39,
+   "keyed": 597,
+   "missing": 0,
+   "duration": 3.066666603088379,
+   "keys": 185
+  },
+  {
+   "name": "web_swing_release_high_spiderman",
+   "constant": 37,
+   "keyed": 599,
+   "missing": 0,
+   "duration": 2.5999999046325684,
+   "keys": 157
+  },
+  {
+   "name": "web_swing_release_low_spiderman",
+   "constant": 41,
+   "keyed": 595,
+   "missing": 0,
+   "duration": 1.1333333253860474,
+   "keys": 69
+  },
+  {
+   "name": "web_swing_release_mid1_spiderman",
+   "constant": 41,
+   "keyed": 595,
+   "missing": 0,
+   "duration": 2.6666667461395264,
+   "keys": 161
+  },
+  {
+   "name": "web_swing_release_mid2_spiderman",
+   "constant": 36,
+   "keyed": 600,
+   "missing": 0,
+   "duration": 2.6666667461395264,
+   "keys": 161
+  },
+  {
+   "name": "web_swing_release_mid3_spiderman",
+   "constant": 38,
+   "keyed": 598,
+   "missing": 0,
+   "duration": 2.6666667461395264,
+   "keys": 161
+  },
+  {
+   "name": "web_swing_release_mid4_spiderman",
+   "constant": 40,
+   "keyed": 596,
+   "missing": 0,
+   "duration": 2.6666667461395264,
+   "keys": 161
+  },
+  {
+   "name": "web_swing_release_mid5_spiderman",
+   "constant": 35,
+   "keyed": 601,
+   "missing": 0,
+   "duration": 2.6666667461395264,
+   "keys": 161
+  },
+  {
+   "name": "web_swing_release_mid_spiderman",
+   "constant": 38,
+   "keyed": 598,
+   "missing": 0,
+   "duration": 2.6666667461395264,
+   "keys": 161
+  },
+  {
+   "name": "web_swing_rh_a_spiderman",
+   "constant": 39,
+   "keyed": 597,
+   "missing": 0,
+   "duration": 6.0,
+   "keys": 361
+  },
+  {
+   "name": "web_zip_attach_fwd_spiderman",
+   "constant": 40,
+   "keyed": 596,
+   "missing": 0,
+   "duration": 1.3333333730697632,
+   "keys": 81
+  },
+  {
+   "name": "web_zip_attach_short_fwd_spiderman",
+   "constant": 37,
+   "keyed": 599,
+   "missing": 0,
+   "duration": 0.46666666865348816,
+   "keys": 29
+  },
+  {
+   "name": "web_zip_fwd_2hand_spiderman",
+   "constant": 40,
+   "keyed": 596,
+   "missing": 0,
+   "duration": 1.0,
+   "keys": 61
+  },
+  {
+   "name": "web_zip_fwd_fastfall_2h_spiderman",
+   "constant": 36,
+   "keyed": 600,
+   "missing": 0,
+   "duration": 1.0,
+   "keys": 61
+  },
+  {
+   "name": "web_zip_fwd_jumpreleasehigh_2h_spiderman",
+   "constant": 33,
+   "keyed": 603,
+   "missing": 0,
+   "duration": 1.0,
+   "keys": 61
+  },
+  {
+   "name": "web_zip_fwd_skydive_2h_spiderman",
+   "constant": 42,
+   "keyed": 594,
+   "missing": 0,
+   "duration": 1.0,
+   "keys": 61
+  },
+  {
+   "name": "web_zip_fwd_spiderman",
+   "constant": 41,
+   "keyed": 595,
+   "missing": 0,
+   "duration": 1.0,
+   "keys": 61
+  },
+  {
+   "name": "wall_run_up_intro_spiderman",
+   "constant": 34,
+   "keyed": 602,
+   "missing": 0,
+   "duration": 1.600000023841858,
+   "keys": 97
+  },
+  {
+   "name": "wall_run_up_spiderman",
+   "constant": 448,
+   "keyed": 188,
+   "missing": 0,
+   "duration": 0.6000000238418579,
+   "keys": 37
+  },
+  {
+   "name": "web_swing_fwd_rh_spiderman_mirrored",
+   "constant": 37,
+   "keyed": 599,
+   "missing": 0,
+   "duration": 4.733333110809326,
+   "keys": 285
+  },
+  {
+   "name": "web_swing_intro_fromairaggro_fwd_rh_spiderman_mirrored",
+   "constant": 41,
+   "keyed": 595,
+   "missing": 0,
+   "duration": 0.7666666507720947,
+   "keys": 47
+  },
+  {
+   "name": "web_swing_intro_fromfastfall_fwd_rh_spiderman_mirrored",
+   "constant": 37,
+   "keyed": 599,
+   "missing": 0,
+   "duration": 0.7666666507720947,
+   "keys": 47
+  },
+  {
+   "name": "web_swing_jump_high1_spiderman_mirrored",
+   "constant": 37,
+   "keyed": 599,
+   "missing": 0,
+   "duration": 2.5,
+   "keys": 151
+  },
+  {
+   "name": "web_swing_jump_high2_spiderman_mirrored",
+   "constant": 35,
+   "keyed": 601,
+   "missing": 0,
+   "duration": 2.6666667461395264,
+   "keys": 161
+  },
+  {
+   "name": "web_swing_jump_high_spiderman_mirrored",
+   "constant": 40,
+   "keyed": 596,
+   "missing": 0,
+   "duration": 2.566666603088379,
+   "keys": 155
+  },
+  {
+   "name": "web_swing_jump_mid2_spiderman_mirrored",
+   "constant": 33,
+   "keyed": 603,
+   "missing": 0,
+   "duration": 3.066666603088379,
+   "keys": 185
+  },
+  {
+   "name": "web_swing_jump_mid3_spiderman_mirrored",
+   "constant": 37,
+   "keyed": 599,
+   "missing": 0,
+   "duration": 3.066666603088379,
+   "keys": 185
+  },
+  {
+   "name": "web_swing_jump_mid4_spiderman_mirrored",
+   "constant": 33,
+   "keyed": 603,
+   "missing": 0,
+   "duration": 3.066666603088379,
+   "keys": 185
+  },
+  {
+   "name": "web_swing_jump_mid5_spiderman_mirrored",
+   "constant": 36,
+   "keyed": 600,
+   "missing": 0,
+   "duration": 3.066666603088379,
+   "keys": 185
+  },
+  {
+   "name": "web_swing_jump_mid_spiderman_mirrored",
+   "constant": 40,
+   "keyed": 596,
+   "missing": 0,
+   "duration": 3.066666603088379,
+   "keys": 185
+  },
+  {
+   "name": "web_swing_release_high_spiderman_mirrored",
+   "constant": 38,
+   "keyed": 598,
+   "missing": 0,
+   "duration": 2.5999999046325684,
+   "keys": 157
+  },
+  {
+   "name": "web_swing_release_low_spiderman_mirrored",
+   "constant": 42,
+   "keyed": 594,
+   "missing": 0,
+   "duration": 1.1333333253860474,
+   "keys": 69
+  },
+  {
+   "name": "web_swing_release_mid1_spiderman_mirrored",
+   "constant": 41,
+   "keyed": 595,
+   "missing": 0,
+   "duration": 2.6666667461395264,
+   "keys": 161
+  },
+  {
+   "name": "web_swing_release_mid2_spiderman_mirrored",
+   "constant": 37,
+   "keyed": 599,
+   "missing": 0,
+   "duration": 2.6666667461395264,
+   "keys": 161
+  },
+  {
+   "name": "web_swing_release_mid3_spiderman_mirrored",
+   "constant": 36,
+   "keyed": 600,
+   "missing": 0,
+   "duration": 2.6666667461395264,
+   "keys": 161
+  },
+  {
+   "name": "web_swing_release_mid4_spiderman_mirrored",
+   "constant": 38,
+   "keyed": 598,
+   "missing": 0,
+   "duration": 2.6666667461395264,
+   "keys": 161
+  },
+  {
+   "name": "web_swing_release_mid5_spiderman_mirrored",
+   "constant": 33,
+   "keyed": 603,
+   "missing": 0,
+   "duration": 2.6666667461395264,
+   "keys": 161
+  },
+  {
+   "name": "web_swing_release_mid_spiderman_mirrored",
+   "constant": 38,
+   "keyed": 598,
+   "missing": 0,
+   "duration": 2.6666667461395264,
+   "keys": 161
+  }
+ ],
+ "clip_duration_max_difference_from_conversion_json": 2.2252400722067023e-07,
+ "collision": {
+  "assets": 16,
+  "distinct_models": 73,
+  "triangles_distinct": 107392
+ },
+ "pack": {
+  "file": "SpiderManData.rbxmx",
+  "module_scripts": 296,
+  "payload_bytes": 18438834,
+  "compression": "zstd"
+ },
+ "file_sizes_mb": {
+  "import/SpiderMan.glb": 9.4,
+  "import/CityTowers.glb": 38.0,
+  "import/CityProps.glb": 19.5,
+  "SpiderManData.rbxmx": 25.2
+ }
+}
