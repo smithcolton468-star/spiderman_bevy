@@ -14,7 +14,7 @@ Studio MCP. The Rust code stays the spec.
 | 60 Hz fixed step with smooth frames in between | **Yes** | Same accumulator and interpolation, run on Roblox's frame events. |
 | Animations: 68 clips, blends, mirrored swings, timing | **Yes, minus bone scale** | Every keyframe is in the pack bit for bit, and Bevy's sampling and blending get reimplemented in Luau. Bone scale is lost (see below). |
 | Suit: mesh, 212-bone skin, textures | **Yes** | Same triangles, weights and bones. Three pieces over the 20,000-triangle limit are cut in two, which doesn't show. |
-| City: 7 towers, 56 cars, 62 props | **Yes** | Same meshes and textures, in two import files. |
+| City: 7 towers, 56 cars, 62 props | **Yes** (optional) | Same meshes and textures, in two import files. Not needed: swinging works on any parts or models you build, as the Rust does with any object it's given. |
 | Camera: 5.5 m boom, 93–111° FOV with speed, look-up, wall avoidance | **Yes** | Roblox's FOV is vertical, and Bevy converts it the same way. |
 | Webs, zip-point diamond, F3 overlay, HUD | **Yes** (font differs) | Beams and line adornments. Bevy's built-in font isn't in Roblox; a similar monospace font is. |
 | Keyboard, mouse, gamepad | **Nearly** | Esc belongs to Roblox's menu, Shift-lock must be turned off, and F12 can't save a file. |
@@ -53,7 +53,8 @@ against `manifest.json` first.
 1. Pull this branch (`claude/zealous-hopper-o6l4y9`) into your local clone.
 2. In Studio, make a new Baseplate place, delete `Baseplate` and `SpawnLocation`, then **File → Save to File**.
 3. Connect Claude Code to Studio through the Roblox Studio MCP, if it isn't already.
-4. **Import 3D** each file in `roblox_port/import/` (the dialog can't be driven by the MCP):
+4. **Import** (Ctrl+M, or File → Import) `roblox_port/import/SpiderMan.glb`. The two city files are optional, since
+   swinging works on any map you build yourself. The import dialog can't be driven by the MCP:
 
    | File | Rig Type | Keep Zero Influence Bones | Scale Unit | Anchored |
    |---|---|---|---|---|

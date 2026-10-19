@@ -18,8 +18,9 @@ and order of work. I've only fixed the things below because they decide whether 
 A cloud session prepared `roblox_port/` (read `roblox_port/README.md`, `FORMAT.md` and `manifest.json` first), and I
 have already:
 
-- imported `roblox_port/import/SpiderMan.glb` (Rig Type Custom, Keep Zero Influence Bones on, Scale Unit Studs),
-  `CityTowers.glb` and `CityProps.glb` (No Rig, Anchored) with the 3D Importer;
+- imported `roblox_port/import/SpiderMan.glb` (Rig Type Custom, Keep Zero Influence Bones on, Scale Unit Studs) with
+  the 3D Importer. I'm **not** importing the city (`CityTowers.glb`, `CityProps.glb`); I'll build my own maps from
+  parts and models (see Collision below);
 - inserted `roblox_port/SpiderManData.rbxmx` into ReplicatedStorage. It holds every animation clip bit for bit, the
   skeleton, the collision triangles, layout.json, all of assets/tuning, the 11 original-game runs and reference poses.
   Its `Decoder` module reads them all (`luau/Decoder.luau`, already tested in the Luau CLI).
@@ -82,10 +83,23 @@ update_camera, update_hud, then PostUpdate draw_web after transforms propagate).
   Animator the importer added, so nothing else writes Transform.
 - The web lines start at the `LF_wrist` / `RT_wrist` joints' animated world positions.
 
-**Collision.** Buildings with an authored box (`center`, `half` in layout.json) collide as that box. Every car and
-object collides by its glTF primitives (one `world::Model` per primitive, in mesh space), placed by the layout's
-position, yaw and uniform scale. `Collision/Index` maps each asset to its primitives' models; `hidden` objects collide
-without being drawn. Build ledges and tips from these triangles with the Rust algorithms, not from Roblox geometry.
+**Collision: any map I build.** Swinging has to work on whatever parts and models I put in the place, not on a fixed
+city. The Rust already supports this: anything without an authored box "collides by its own meshes and offers its
+ledges" (`src/world.rs`, `environment.rs`). Swing points, zip points, perches, wall runs and the floor all come from
+`World::raycast`, `sphere_cast` and friends over boxes and triangles. So build the Rust `World` from the place's
+geometry, turned into triangles in metres (÷ studs_per_metre):
+- Parts: the triangles of their shape at their CFrame and Size (a Block is a box, rotated parts included; wedges,
+  corner wedges, cylinders and balls triangulated).
+- MeshParts: their real triangles, read with `AssetService:CreateEditableMeshAsync` and scaled from MeshSize to Size.
+  Unions and anything else you can't read: tell me what you did with them.
+- One `world::Model` per mesh asset or shape, shared by every placement as the Rust does, with a BVH. Rebuild when
+  the map changes, or say why not.
+- Decide with me what counts as map (a folder, a tag, or everything anchored and collidable that isn't the hero).
+- Keep the Rust's built-in street at y = 0 and its reset rules (below −20 m, or over 2,000 m from the origin), with
+  the place's ground at Y = 0. Ask me if those get in the way of a bigger map.
+
+The pack still has the sandbox city's collision (`Collision/Index`, `Collision/Models`, `Layout`). Use it as test
+data, without drawing anything, to show that your Luau `World` gives the same answers as the Rust one.
 
 **Roblox and Studio.**
 - `Script.Source` and string properties stop at 200,000 characters, so keep modules under that.
@@ -95,7 +109,6 @@ without being drawn. Build ledges and tips from these triangles with the Rust al
   (Shift is the swing).
 - Esc always opens Roblox's menu. Studio may also keep some F-keys during play-testing; if F1, F3 or F12 don't reach
   the game, tell me and suggest the closest free keys.
-- Roblox parts top out at 2,048 studs a side, so tile Bevy's 1,800 m floor.
 - Roblox's `Camera.FieldOfView` is vertical, and `update_camera` already converts from horizontal; keep that conversion.
 - Lighting: there are no lux or EV values in Roblox, so match `setup`'s sun direction, colours, ambient and the
   linear fog (140–600 m) as closely as Roblox allows, then show me a screenshot next to
@@ -103,8 +116,8 @@ without being drawn. Build ledges and tips from these triangles with the Rust al
 
 ## Checks I want passing (report each as numbers)
 
-1. **Import:** 212 bones with the Skeleton's names, rest joint positions and bounds as in `manifest.json`, all 21 suit
-   MeshParts skinned, and every city model present.
+1. **Import:** 212 bones with the Skeleton's names, rest joint positions and bounds as in `manifest.json`, and all 21
+   suit MeshParts skinned.
 2. **Pack:** `Decoder.loadClips` and `loadCollision` load in Studio: 68 clips, durations matching `Conversion`, 73
    models with the triangle counts in `Collision/Index`.
 3. **The game's code:** your Luau `sm_traversal` port runs the 11 `OracleFixtures` scenarios closed loop, like
@@ -113,9 +126,9 @@ without being drawn. Build ledges and tips from these triangles with the Rust al
 4. **Animation:** your sampler, blender and forward kinematics reproduce every `ReferencePoses` entry (positions
    within 0.1 mm, rotations within 0.01°), including the three-layer blend. Then check the bones in Studio actually
    land where the targets say.
-5. **World:** the counts the Rust logs once loaded ("collision world: N boxes, N placed meshes (N distinct),
-   N triangles, N perch ledges") come out the same in Luau. If you can run the Rust, compare a few swing-point and
-   ledge picks directly.
+5. **World:** with the pack's sandbox city loaded as test data, the counts the Rust logs ("collision world: N boxes,
+   N placed meshes (N distinct), N triangles, N perch ledges") come out the same in Luau. If you can run the Rust,
+   compare a few swing-point and ledge picks directly. Then swing across a map made of plain parts and of MeshParts.
 6. **Play:** the controls table in the repo README works (keyboard, mouse and a controller), with the HUD, F1 help,
    the F3 overlay and the zip diamond.
 
